@@ -1,0 +1,22 @@
+{
+  "name": "D'SOFT",
+  "short_name": "D'SOFT",
+  "description": "Blog sobre programación y desarrollo de software",
+  "icons": [
+    {
+      "src": "media/images/icon64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    
+    {
+      "src": "media/images/icon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.php",
+  "display": "fullscreen",
+  "theme_color": "#102030",
+  "background_color": "#102030"
+}
