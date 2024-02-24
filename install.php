@@ -81,28 +81,31 @@ return true;
 }
 	</style>
 </head>
-<body class='total-center'>
-<form style='margin:0 auto;display:inline-block;max-width:300px;padding:10px;background:#345' class="form-admin" action="install.php" method="POST">
+<body class="body-center">
+    <div class="total-center">
+        <form style='margin:0 auto;display:inline-block;max-width:300px;padding:10px;background:#345;border-radius:5px;' class="form-admin" action="install.php" method="POST">
 	<div>
 	  <img class="img-logo" src="logo.png"/>
     </div>
 <div style='color:#def;padding:10px;text-align:center;font-weight:bold'>Instalación de la base de datos</div>
 <label for="host">
-<input placeholder="Host:" class="t1" name="host" id="host" type="text"required/>
+<input placeholder="Host:" class="t1" name="host" id="host" type="text" required/>
 </label>
 
 <label for="db_name">
-<input placeholder="DATABASE NAME:" class="t1" name="db_name" id="db_name" type="text"required/>
+<input placeholder="DATABASE NAME:" class="t1" name="db_name" id="db_name" type="text" required/>
 </label>
 
 <label for="user">
-<input placeholder="Usuario:" class="t1" name="user" id="user" type="text"required/>
+<input placeholder="Usuario:" class="t1" name="user" id="user" type="text" required/>
 </label>
 <label for="pass">
 <input placeholder="Contraseña:" class="t1" name="pass" id="pass" type="password"/>
 </label>
 <input type="submit" value="Instalar" class='rig'>
 </form>
+</div>
+
 
 </body>
 </html>

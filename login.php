@@ -27,7 +27,7 @@ if(isLogin()){
 <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
-<body>
+<body class="body-center">
 <div class="site center">
 <center>
 <form class="form-admin extra" action="login.php" method="POST">
@@ -35,8 +35,6 @@ if(isLogin()){
 <div style="color:red;"><?php if(isset($err)){echo $err;}?></div>
 <input type="text" placeholder="Usuario" name="user" id="user" required />
 <input placeholder="Contraseña" name="pass" id="pass" type="password" required />
-
-
 <div class="block center">
 <center>
 <input type="submit" value="Acceder">

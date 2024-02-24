@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 include "core.php";
 if(isExisteAdmin()){
     exit(header("location: login.php"));
@@ -13,7 +13,7 @@ if(isExisteAdmin()){
 	 $password = $_POST["pass"];
 	 $password = sha1($password);
 
-	 if($token=="@935226"){
+	 if($token=="1234"){
 		 if(getDataBase()){
 	   
 
@@ -47,11 +47,11 @@ if(isExisteAdmin()){
 <input type="text" placeholder="Nombre" name="name" id="name" required/>
 <input type="text" placeholder="Apellidos" name="lastname" id="lastname" required/>
 <input type="email" placeholder="Correo" name="email" id="email" valid="email" required/>
-<input type="text" placeholder="Teléfono" name="tel" id="tel" required/>
+<input type="text" placeholder="TelÃ©fono" name="tel" id="tel" required/>
 <input type="text" placeholder="Token" name="token" id="token"/>
 <input type="text" placeholder="Usuario" name="user" id="user" required/>
-<input placeholder="Contraseña" name="pass1" id="pass1" type="password" required/>
-<input placeholder="Repetir Contraseña" name="pass" id="pass" type="password" required/>
+<input placeholder="ContraseÃ±a" name="pass1" id="pass1" type="password" required/>
+<input placeholder="Repetir ContraseÃ±a" name="pass" id="pass" type="password" required/>
 <div class="block center">
 <input type="submit" value="Crear Cuenta">
 </div>

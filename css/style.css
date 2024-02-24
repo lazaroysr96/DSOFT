@@ -124,7 +124,78 @@ ul.votacion{
 
 
 
+@keyframes anim{
+    from{
+opacity: 0;
+    }
+    to{
+opacity: 1;
+    }
+}
 
+
+.alert-container{
+    position: fixed;
+    top: 0%;
+    left:0%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: none;
+    justify-content: center;
+    flex-direction: center;
+  place-items: center;
+  animation-name: anim;
+  animation-duration: 1s;
+}
+
+.alert{
+    background: #234;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    color:#def;
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.alert-title{
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+.alert-message{
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+
+button{
+    padding: 7px 10px 7px 10px;
+    background: #0cf;
+    border: none;
+    border-radius: 10px;
+    color:#FFF;
+    font-weight: bold;
+    margin:5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transition:1s;
+}
+
+button:hover{
+    background: #08f;
+}
+.alert-acept{
+background: #0c0;
+}
+
+.alert-cancel{
+background: #c02;
+}
 
 
 
@@ -192,11 +263,19 @@ text-align:center;
 .otm{
         font-size: 16px;
     }
-
+.body-center{
+    margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
 .total-center{
-    display:flex;
-    flex-direction: column;
+    margin: 0 auto;
     justify-content: center;
+    flex-direction: center;
+  place-items: center;
+    display:flex;
 }
 
 /*Fuente para iconos*/
